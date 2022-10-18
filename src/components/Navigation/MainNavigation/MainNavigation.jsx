@@ -17,7 +17,6 @@ const MainNavigation = () => {
   return (
     <>
       <Logo className={s.desktop} />
-
       <nav className={s.desktop}>
         <NavLinks />
         <BtnToggleTheme />

@@ -4,7 +4,6 @@ import { AiFillGithub } from 'react-icons/ai';
 import {
   FaFacebookSquare,
   FaLinkedinIn,
-  FaTelegramPlane,
 } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -15,40 +14,39 @@ const IntroSection = () => {
       <div className={s.introduction}>
         <div className={s.introductionText}>
           <h1 className={s.title}>
-            LET ME <span className={s.purple}> INTRODUCE </span>{' '}
-            MYSELF
+            DÉJAME <span className={s.purple}> PRESENTARME </span>{' '}
+            
           </h1>
 
           <div className={s.description}>
             <p>
-              I fell in love with programming and I have at least
-              learnt something, I think… 🤷‍♂️
+              Me enamore de la programación y almenos algo aprendí, creo… 🤷‍♂️
             </p>
 
             <p>
-              My field of Interest's are building new
+              Mi campo de interes es la creación de nuevas
               <i>
                 <b className={s.purple}>
                   {' '}
-                  Web Technologies and Products
+                  Tecnologías y productos Web
                 </b>
               </i>
             </p>
 
             <p>
-              A passionate Full Stack Software Developer 🚀 <br />I
-              have an experience of building{' '}
+              Soy una comprometida desarrolladora de software 🚀 <br />
+              Tengo experiencia en la creación de aplicaciones{' '}
               <i>
-                <b className={s.purple}>Web and Mobile</b>
+                <b className={s.purple}>Web y Móbiles</b>
               </i>{' '}
-              applications with
+              applicaciones con
               <br />
               <i>
                 <b className={s.purple}>
-                  JavaScript, Reactjs, Nodejs, React Native
+                  JavaScript, Reactjs, Nodejs, Angular
                 </b>
               </i>{' '}
-              and some other cool libraries
+              y algunas otras bibliotecas geniales.
             </p>
           </div>
         </div>
@@ -59,15 +57,15 @@ const IntroSection = () => {
       </div>
 
       <div className={s.introSocial}>
-        <h1>FIND ME ON</h1>
+        <h1>ENCUENTRA ME EN</h1>
         <p>
-          Feel free to <span className={s.purple}>connect </span>with
-          me
+          Siéntase libre de <span className={s.purple}>contactarse </span>con
+          migo
         </p>
         <ul className={s.socialLinks}>
           <li className={s.socialLink}>
             <a
-              href="https://github.com/vsnaichuk"
+              href="https://github.com/almavelez"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -77,7 +75,7 @@ const IntroSection = () => {
           </li>
           <li className={s.socialLink}>
             <a
-              href="https://www.facebook.com/Snaychuk"
+              href="https://www.facebook.com"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
@@ -85,19 +83,10 @@ const IntroSection = () => {
               <FaFacebookSquare />
             </a>
           </li>
+         
           <li className={s.socialLink}>
             <a
-              href="https://t.me/snaichuk_v"
-              target="_blank"
-              rel="noreferrer"
-              className={s.socialIcon}
-            >
-              <FaTelegramPlane />
-            </a>
-          </li>
-          <li className={s.socialLink}>
-            <a
-              href="https://www.linkedin.com/in/volodymyr-snaichuk-74a389124/"
+              href="https://www.linkedin.com"
               target="_blank"
               rel="noreferrer"
               className={s.socialIcon}
